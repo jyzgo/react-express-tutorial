@@ -1,0 +1,31 @@
+# what is npx?
+#$ what is create-react-app
+    #$ basicly these two a basic create cmd
+ 
+
+#% what is yarn?
+    #% yarn is a package tools yarn add
+    
+
+$% import different?
+    import React from 'react';
+    import App from './App';
+    import {BrowserRouter} from 'react-router-dom'
+   
+
+    //B.js
+    import A from './A'
+   // works only if A has the default export
+   //A.js 
+   export default 42
+        What is default export?
+    import X,{myA,Som} from './A'
+    anything in the brace have to have named exports called myA and Som
+    in this case X is default export
+
+%^ react-dom ?
+    basicly it's a function collection that render React with tags
+
+$$ What is BrowserRouter ?
+
+
