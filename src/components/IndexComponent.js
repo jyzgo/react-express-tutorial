@@ -27,9 +27,21 @@ export default class IndexComponent extends Component{
 
     render(){
         return (
-                <div style={{marginTop:50}}>
-                <p>Welcome from Index Component</p>
+            <div className="container">
+                <table className="table table-striped">
+                    <thread>
+                        <tr>
+                            <td>ID</td>
+                            <td>Name</td>
+                            <td>Port</td>
+                        </tr>
+                    </thread>
+                    <tbody>
+                    {this.tabRow()}
+                    </tbody>
+                </table>
             </div>
         )
+
     }
 }
