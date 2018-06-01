@@ -10,6 +10,20 @@ export default class IndexComponent extends Component{
 
     }
 
+    componentDidMount(){
+        axios.get('http://localhost:4200/serverport').then(response=>{
+            this.setState({serverports:response.data});
+        }).catch(function (error) {
+            console.log(error);
+        })
+    }
+
+    tabRow(){
+        return this.state.serverports.map(function (object,i) {
+            return <TableRow obj ={object} key={i}/>;
+        });
+    }
+
 
     render(){
         return (
