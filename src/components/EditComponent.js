@@ -62,7 +62,7 @@ export default  class EditComponent extends Component{
                     <div className="form-group">
                         <input type="submit" value="Update server" className="btn btn-primary"/>
                     </div>
-            <p> Welcome to Edit Component </p>
+                </form>
         </div>
         )
     }

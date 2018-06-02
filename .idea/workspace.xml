@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="69e67a2a-e98d-477c-bc72-5778311d9a7d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/EditComponent.js" afterPath="$PROJECT_DIR$/src/components/EditComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/IndexComponent.js" afterPath="$PROJECT_DIR$/src/components/IndexComponent.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="EditComponent.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/EditComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="63" column="25" lean-forward="false" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+            <state relative-caret-position="325">
+              <caret line="65" column="13" lean-forward="false" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -269,12 +268,12 @@
       <workItem from="1527808139494" duration="1969000" />
       <workItem from="1527822252363" duration="828000" />
       <workItem from="1527845137201" duration="1284000" />
-      <workItem from="1527911436263" duration="1717000" />
+      <workItem from="1527911436263" duration="1786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25841000" />
+    <option name="totallyTimeSpent" value="25910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="949" y="88" width="1400" height="805" extended-state="0" />
@@ -702,8 +701,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/EditComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="63" column="25" lean-forward="false" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        <state relative-caret-position="325">
+          <caret line="65" column="13" lean-forward="false" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
