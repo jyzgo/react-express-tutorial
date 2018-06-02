@@ -1,6 +1,7 @@
 import  React, { Component} from 'react';
 import axios from 'axios';
 import TableRow from './TableRow';
+import {Link} from 'react-router-dom';
 
 export default class IndexComponent extends Component{
     constructor(props)
@@ -40,6 +41,7 @@ export default class IndexComponent extends Component{
                     {this.tabRow()}
                     </tbody>
                 </table>
+                <Link to ={"/edit/"+this.props.obj._id} className ="btn btn-primary">Edit</Link>
             </div>
         )
 
