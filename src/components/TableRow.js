@@ -4,6 +4,7 @@ import  React,{Component} from 'react'
 class  TableRow extends Component{
     render()
     {
+        return(
         <tr>
             <td>
                 {this.props.obj._id}
@@ -21,6 +22,7 @@ class  TableRow extends Component{
                 <button className="btn btn-danger"> Delete </button>
             </td>
         </tr>
+        )
     }
 }
 
